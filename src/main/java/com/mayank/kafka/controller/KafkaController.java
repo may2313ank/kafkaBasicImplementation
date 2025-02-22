@@ -31,5 +31,6 @@ public class KafkaController {
 
 //C:\kafka_2.13-3.1.2\bin\windows>kafka-console-producer.bat  --broker-list localhost:9092 --topic my-topic
 
-//C:\kafka_2.13-3.1.2\bin\windows>kafka-console-consumer.bat --topic my-topic --bootstrap-server localhost:9093 --from-beginning
+//C:\kafka_2.13-3.1.2\bin\windows>kafka-console-consumer.bat --topic my-topic --bootstrap-server localhost:9092 --from-beginning
 
+//http://localhost:8080/kafka/send?message=HelloKafka
